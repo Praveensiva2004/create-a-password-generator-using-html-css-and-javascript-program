@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.container {
+    text-align: center;
+    background:white;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color:blueviolet;
+    color: beige;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+input {
+    margin-top: 10px;
+    width: 100%;
+
+    font-size: 16px;
+    border: 1px solid blanchedalmond;
+    border-radius: 4px;
+}
